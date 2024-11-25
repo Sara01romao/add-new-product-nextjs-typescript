@@ -1,3 +1,4 @@
+import FormProduct from "@/components/form_product";
 
 export default function AddPage(){
 
@@ -5,8 +6,12 @@ export default function AddPage(){
 
         <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
         <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start">
-            
-            <h1>Add Produto</h1>
+    
+         <h1 className="text-blue-500 font-bold text-2xl">Add new product</h1>
+
+         <FormProduct/>
+
+
         </main>
     
         </div>
